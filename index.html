@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crenças Natalinas de 2023</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Portal das Crenças Natalinas de 2023!</h1>
+        <p>Descubra as estatísticas sobre as crenças e tradições de Natal ao redor do mundo.</p>
+    </header>
+
+    <section id="estatisticas">
+        <h2>Estatísticas Natalinas de 2023</h2>
+        <p>Abaixo você pode ver algumas das principais crenças sobre o Natal em 2023.</p>
+        
+        <ul id="lista-estatisticas">
+            <!-- As estatísticas serão carregadas aqui pelo JavaScript -->
+        </ul>
+    </section>
+
+    <section id="interatividade">
+        <h2>O que você acredita sobre o Natal?</h2>
+        <label for="natal-crenca">Você acredita que o Papai Noel existe?</label>
+        <select id="natal-crenca">
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+            <option value="nao-sei">Não sei</option>
+        </select>
+        <button onclick="mostrarResposta()">Ver Estatísticas</button>
+
+        <p id="resposta"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 - Crenças Natalinas</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
