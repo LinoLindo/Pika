@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homicídios no Brasil - 2023</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Adicionando o Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Homicídios no Brasil - Estatísticas 2023</h1>
+        <p>Explore os gráficos interativos sobre homicídios no Brasil, com dados de 2023.</p>
+    </header>
+
+    <section id="graficos">
+        <h2>Distribuição de Homicídios por Região</h2>
+        <div class="grafico-container">
+            <canvas id="graficoPizzaRegioes"></canvas>
+        </div>
+
+        <h2>Distribuição de Homicídios por Faixa Etária</h2>
+        <div class="grafico-container">
+            <canvas id="graficoPizzaIdades"></canvas>
+        </div>
+
+        <h2>Distribuição de Homicídios por Sexo</h2>
+        <div class="grafico-container">
+            <canvas id="graficoPizzaSexo"></canvas>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 - Estatísticas sobre Homicídios no Brasil</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
